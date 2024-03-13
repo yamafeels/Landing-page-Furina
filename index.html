@@ -2,34 +2,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Definição do conjunto de caracteres -->
     <meta charset="UTF-8">
+    <!-- Definição da largura da página e escala inicial -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FurinaCoffe</title>
-    <meta name="description"  content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <title>FurinaCoffe</title> <!-- Título da página -->
+    <meta name="description"  content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!"> <!-- Descrição da página -->
+    <!-- Importação do arquivo CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">  <!--Tag para importar os dados do HTML para o arquivo do CSS-->
 </head>
 <body>
     <header>
         <nav>
-           <span class="logo">FurinaCoffe</span>
-           <ul class="menu">
+           <span class="logo">FurinaCoffe</span>  <!-- Logo do site -->
+           <ul class="menu"> <!-- Lista de itens do menu -->
                 <li><a>Home</a></li>
                 <li><a>Receitas</a></li>
                 <li><a>Novidades</a></li>
                 <li><a>Melhor avaliadas</a></li> 
-           </ul>
-           <a class="Github">Github</a>
+           </ul> <!-- Link para o Github -->
+           <a class="Github">Github</a> 
         </nav>
     </header>
     <main>
-        <div class="principal">
+        <div class="principal"> <!-- Seção principal da página -->
         <section class="hero">
-            <header class="hero-conteudo">
+            <header class="hero-conteudo"> <!-- Destaque para novidade -->
                 <span class="destaque marrom">Novidade</span>
-                <h1>Encontre sua receita perfeita!</h1>
-                <hr/>   <!--Linha imaginária dentro do html para aparecer na página-->
+                <h1>Encontre sua receita perfeita!</h1> <!-- Título principal -->
+                <hr/> <!-- Linha divisória -->
                 <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os moradores de Fontaine!</h2>
-            </header>
+            </header> <!-- Container das imagens do landing -->
             <div class="hero-imagens-container">
                 <figure><img src="assets/hero-banner-1.jpg"/></figure>
                 <figure><img src="assets/hero-banner-10.jpg"/></figure>
@@ -47,36 +50,36 @@
             </div>
         </div>
         </section>
-        <section class="botao-container">
+        <section class="botao-container"> <!-- Botão de rolagem -->
             <button type="button">
                 <img src="assets/chevrons-down.svg"/> <!--Botão para clicar-->
             </button>
-        </section>
-        <section class="receitas">
+        </section> 
+        <section class="receitas"> <!-- Section com a classe "Receitas" para poder ser modificado no CSS -->
             <header class="receitas-cabecalho">
-                <span class="destaque marrom">Receitas</span>
-                <h2 class="receitas-titulo">Confira as última receitas</h2>
-                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+                <span class="destaque marrom">Receitas</span> <!-- Título do banner receitas, junto  -->
+                <h2 class="receitas-titulo">Confira as última receitas</h2> 
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p> <!-- Subtítulo do banner de receitas -->
             </header>
-            <div class="receitas-card-container">
+            <div class="receitas-card-container"> <!-- Container dos cards de receitas -->
                 <div class="receitas-card">
                     <header class="receitas-card-cabecalho">
                         <div class="receitas-card-detalhes">
-                            <span class="destaque amarelo">Em Alta</span>
-                            <h3 class="receita-titulo">Sparkling Lima</h3>
+                            <span class="destaque amarelo">Em Alta</span>  <!-- Destaque para receita "em alta" -->
+                            <h3 class="receita-titulo">Sparkling Lima</h3> <!-- Título da receita -->
                         </div>
-                        <p>Extraordinário · 4/4</p>
+                        <p>Extraordinário · 4/4</p>  <!-- Avaliação da receita -->
                     </header>
-                    <p>Água mineral ou Água gaseificada sabor Lima, perfeita para degustar em dias quentes ou para relaxar. 😍</p>
+                    <p>Água mineral ou Água gaseificada sabor Lima, perfeita para degustar em dias quentes ou para relaxar. 😍</p> <!-- Descrição da receita -->
                     <div>
-                        <img src="https://i.pinimg.com/564x/00/d8/1e/00d81e4488cc3bf664c5428946124c95.jpg"/>
-                        <span>Neuvillete</span>
+                        <img src="https://i.pinimg.com/564x/00/d8/1e/00d81e4488cc3bf664c5428946124c95.jpg"/> <!--Endereço da foto ou imagem para ser colocado dentro do banner-->
+                        <span>Neuvillete</span> <!--Nome da pessoa que recomenda no banner-->
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer> <!-- Rodapé da página -->
         <p>Copyright &lt;CODEFEE /&gt; 2023</p>
         <p>Feito com muito ❤ e café</p>
     </footer>
