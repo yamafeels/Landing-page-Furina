@@ -1,53 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Tapestry&family=Teko:wght@300..700&display=swap');
-/* Importando a url da fonte para o CSS */
+/* Importando fontes do google fonts, Tapestry e Teko, pesos variando de 300 e 700, definindo a forma de exibir p/ 'swap' */
 
-* {
+* {  /*definindo todos os elementos (*) devem ter margem e preenchimento igual a zero, e o box-sizing deve ser 'border-box', largura e altura inclue a borda e o preenchimento, e não margem*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    background: #1f1517;
-    color: #FFFFFF;
+body { /*define a cor do fundo do documento como cor escura e a cor do texto como branco*/
+    background: #E6E6FA;
+    color: #191970;
 }
 
-html {
+html { /*define o font-family p/ o html como 'Inter' e 'sans-serif', largura da fonte de 600, que é uma unidade de medida semântica forte*/
     font-family: Inter, sans-serif;
     font-weight: 600;
 }
 
-a {
+a { /*Remove a decoração de texto (sublinhado) de todos os links*/
     text-decoration: none;
 }
 
-ul {
+ul { /*remove os estilos padrão das listas não ordenadas, tipo ponto e número*/
     list-style: none;
 }
 
-nav {
-    max-width: 1120px;
-    margin: auto;
-    padding: 1.5rem 10rem;
+nav { /*Estilizando a navegação 'nav'*/
+    max-width: 1120px;                            /* define a largura máxima de 1120 pixels */
+    margin: auto;                                 /* margens automátias p/ centralizar */  
+    padding: 1.5rem 10rem;                        /* Preenchimento lateral de 10rem / 160 pixels */
 
-    display: flex;
+    display: flex;                                /* Usa o flexbox para alinhar os itens do nav horizontalmente*/
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between;               /* Espaços entre eles*/
     align-items: center; /* Itens da primeira parte da página alinhadas no centro */
 }
 
-.logo {
+.logo {   /* Estilizando o elemento dentro do html com a classe '.logo', vai especificar a fonte, o tamanho, espessura e transformando o texto todo em Maiusculas*/
     font-family: teko;
     font-size: 2rem;
     font-weight: 600;
-    text-transform: uppercase;
+    text-transform: uppercase;  /*Transforma todo o texto dentro do elemento com a classe '.logo' em maiusculas, e vai ser exibido em letra maiuscula, independente do que foi escrito anteriormente*/
 }
 
 .menu {
-    display: flex;
-    flex-direction: row;
-    gap: 1.5rem;
-    color: #FFF2E780;
+    display: flex;  /* Os itens dentro do elemento com a classe '.menu' vão ser dispostos da esquerda para a direta */
+    flex-direction: row;  /* Especifica os itens dentro devem ser organizados em uma linha horizontal */
+    gap: 1.5rem; /* Define um espaço entre os itens de 1.5rem, e vai uniformizando o espaçamento*/
+    color: #FFF2E780; /* cor do texto */
 }
 
 .github {
