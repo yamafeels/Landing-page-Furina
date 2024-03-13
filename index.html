@@ -1,0 +1,84 @@
+<!--Estrutura incial no HTML, deixando todas as informações necessárias para depois importar o CSS-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurinaCoffe</title>
+    <meta name="description"  content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet" type="text/css" href="style.css">  <!--Tag para importar os dados do HTML para o arquivo do CSS-->
+</head>
+<body>
+    <header>
+        <nav>
+           <span class="logo">FurinaCoffe</span>
+           <ul class="menu">
+                <li><a>Home</a></li>
+                <li><a>Receitas</a></li>
+                <li><a>Novidades</a></li>
+                <li><a>Melhor avaliadas</a></li> 
+           </ul>
+           <a class="Github">Github</a>
+        </nav>
+    </header>
+    <main>
+        <div class="principal">
+        <section class="hero">
+            <header class="hero-conteudo">
+                <span class="destaque marrom">Novidade</span>
+                <h1>Encontre sua receita perfeita!</h1>
+                <hr/>   <!--Linha imaginária dentro do html para aparecer na página-->
+                <h2 class="hero-subtitulo">Explore dezenas de variações da bebida favorita entre os moradores de Fontaine!</h2>
+            </header>
+            <div class="hero-imagens-container">
+                <figure><img src="assets/hero-banner-1.jpg"/></figure>
+                <figure><img src="assets/hero-banner-10.jpg"/></figure>
+                <figure><img src="assets/hero-banner-11.jpg"/></figure>
+                <figure><img src="assets/hero-banner-12.jpg"/></figure>
+                <figure><img src="assets/hero-banner-2.jpg"/></figure>
+                <figure><img src="assets/hero-banner-3.jpg"/></figure>
+                <figure><img src="assets/hero-banner-3.jpg"/></figure>
+                <figure><img src="assets/hero-banner-4.jpg"/></figure>
+                <figure><img src="assets/hero-banner-5.jpg"/></figure>
+                <figure><img src="assets/hero-banner-6.jpg"/></figure>
+                <figure><img src="assets/hero-banner-7.jpg"/></figure>
+                <figure><img src="assets/hero-banner-8.jpg"/></figure>
+                <figure><img src="assets/hero-banner-9.jpg"/></figure>
+            </div>
+        </div>
+        </section>
+        <section class="botao-container">
+            <button type="button">
+                <img src="assets/chevrons-down.svg"/> <!--Botão para clicar-->
+            </button>
+        </section>
+        <section class="receitas">
+            <header class="receitas-cabecalho">
+                <span class="destaque marrom">Receitas</span>
+                <h2 class="receitas-titulo">Confira as última receitas</h2>
+                <p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+            </header>
+            <div class="receitas-card-container">
+                <div class="receitas-card">
+                    <header class="receitas-card-cabecalho">
+                        <div class="receitas-card-detalhes">
+                            <span class="destaque amarelo">Em Alta</span>
+                            <h3 class="receita-titulo">Sparkling Lima</h3>
+                        </div>
+                        <p>Extraordinário · 4/4</p>
+                    </header>
+                    <p>Água mineral ou Água gaseificada sabor Lima, perfeita para degustar em dias quentes ou para relaxar. 😍</p>
+                    <div>
+                        <img src="https://i.pinimg.com/564x/00/d8/1e/00d81e4488cc3bf664c5428946124c95.jpg"/>
+                        <span>Neuvillete</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &lt;CODEFEE /&gt; 2023</p>
+        <p>Feito com muito ❤ e café</p>
+    </footer>
+</body>
+</html>
