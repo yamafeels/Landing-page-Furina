@@ -8,8 +8,8 @@
 }
 
 body { /*define a cor do fundo do documento como cor escura e a cor do texto como branco*/
-    background: #E6E6FA;
-    color: #191970;
+    background: #F5DEB3;
+    color: #D8BFD8;
 }
 
 html { /*define o font-family p/ o html como 'Inter' e 'sans-serif', largura da fonte de 600, que é uma unidade de medida semântica forte*/
@@ -47,11 +47,11 @@ nav { /*Estilizando a navegação 'nav'*/
     display: flex;  /* Os itens dentro do elemento com a classe '.menu' vão ser dispostos da esquerda para a direta */
     flex-direction: row;  /* Especifica os itens dentro devem ser organizados em uma linha horizontal */
     gap: 1.5rem; /* Define um espaço entre os itens de 1.5rem, e vai uniformizando o espaçamento*/
-    color: #FFF2E780; /* cor do texto */
+    color: #BC8F8F; /* cor do texto */
 }
 
 .github {
-    color: #FFF2E7;
+    color: #900C3F;
     font-weight: 600;
 }
 
@@ -61,11 +61,11 @@ main {
 }
 
 .principal {
-    background: #181012;
+    background: #D2B48C;
 }
 
 .hero {
-    background: #181012;
+    background: #241a1c;
 
     max-width: 1120px;
     height: 60vh; /* VH é a altura da tela da máquina */
@@ -100,7 +100,7 @@ main {
 }
 
 .amarelo {
-    color: #E7A80E;
+    color: #C70039;
 }
 
 h1 {
@@ -116,7 +116,7 @@ hr {
 }
 
 .hero-subtitulo {
-    color: #c7bab3;
+    color: #A0522D;
     font-family: Inter;
     font-size: 1.5rem;
     font-weight: 400;
@@ -171,11 +171,11 @@ button {
     font-family: Montserrat;
     font-size: 32px;
     font-weight: 700;
-    color: #FFF2E7;
+    color: #C70039;
 }
 
 .receitas.subtitulos {
-    color: #c7bab3;
+    color: #FF6347;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -187,6 +187,7 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 2rem;
+    align-items: flex-start;
 }
 
 .receitas-card {
@@ -197,6 +198,7 @@ button {
     flex-direction: column;
     gap: 2rem;
     flex-basis: 29rem;
+    margin-top: 2rem;
 }
 
 .receitas-card-cabecalho {
@@ -218,4 +220,61 @@ button {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+}
+
+.receita-avaliacao {
+    color: #756a67;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.receita-descricao {
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.receita-autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.receita-autor > img {
+    border-radius: 20rem;
+    width: 1.5rem; 
+}
+
+.receita-autor-nome {
+    color: #c7bab3;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+footer {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #23181a;
+}
+
+.footer-copy {
+    color: #FFF2E7;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.footer-autor {
+    color: rgba(255, 242, 231, 0.50);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
 }
